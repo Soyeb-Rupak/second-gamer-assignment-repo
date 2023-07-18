@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:wght@300;400;700;900&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Nav starts  */
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-part {
+  width: 50%;
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+  font-size: 45px;
+  font-weight: 700;
+  gap: 20px;
+}
+
+.logo-part span {
+  color: #ff42a5;
+  font-style: normal;
+}
+.menu-part {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 50px;
+  gap: 40px;
+}
+
+.menu-part a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #534c64;
+}
+.menu-part .login-btn {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px 20px;
+  text-align: center;
+}
+.fa-brands {
+  margin-left: 15px;
+}
+/* Nav ends */
