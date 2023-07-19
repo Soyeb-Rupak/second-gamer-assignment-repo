@@ -388,7 +388,7 @@ grid-template-columns: repeat(4, 1fr);
   margin-top: 30px;
 }
 
-
+/* games-container starts */
 .type-of-games-container {
   max-width: 1400px;
   display: grid;

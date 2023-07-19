@@ -1,4 +1,105 @@
-@media screen and (max-width: 425px) {
+/* Tab Responsive */
+@media screen and (max-width: 992px) {
+
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+      }
+  
+    /* Nav responsive ends  */
+    /* Banner container start */
+    .banner-container{
+  
+      display: flex;
+  
+  
+    }
+    .banner-info{
+      width: 50%;
+    }
+  
+    .banner-image{
+      width: 50%;
+    }
+  
+    /* banner end */
+  
+    /* gamer section starts */
+    .gamer-container{
+      display: flex;
+    }
+  
+    .gamer-info{
+      width: 50%;
+    }
+  
+    .gamer-img{
+  
+      width: 50%;
+    }
+  /* gamer section ends */
+    /* online game part start */
+    .game-media {
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      
+    }
+      /* online game part ends */
+     
+  /* Instant Playing section starts */
+  
+  .instant-playing-container {
+      display: flex;
+    }
+    .instant-playing-info {
+      width: 50%;
+      text-align: center;
+    }
+    .instant-playing-img {
+      width: 50%;
+    }
+    /* Instant Playing section Ends */
+  /* Instant Playing section part-2 starts */
+  .instant-playing-container1 {
+      display: flex;
+    }
+  
+    .instant-playing-info1 {
+      width: 50%;
+      
+    }
+    .instant-playing-img1 {
+      width: 50%;}
+      /* Instant Playing section part-2 Ends */
+  
+  /* Career section start  */
+  .career-container {
+    display: flex;
+    }
+    .career-info {
+      width: 100%;
+      margin: 50px 05px ;
+      text-align: center;
+     
+    }
+    .career-img {
+      width: 100%;
+    }
+    .group-list{
+      text-align: center;
+    }
+    .type-of-games-container{
+  
+      grid-template-columns: repeat(5,  1fr);
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 576px) {
     .nav-container {
       flex-direction: column;
       width: 100%;
@@ -20,7 +121,98 @@
     
    .login-btn {
       width: 100%;
-    
 }
-}
+
+
+
+
+
+
+
   /* Nav responsive ends  */
+  /* Banner container start */
+  .banner-container{
+
+    display: block;
+
+
+  }
+  .banner-info{
+    width: 100%;
+  }
+
+  .banner-image{
+    width: 100%;
+  }
+
+  /* banner end */
+
+  /* gamer section starts */
+  .gamer-container{
+    display: block;
+  }
+
+  .gamer-info{
+    width: 100%;
+  }
+
+  .gamer-img{
+
+    width: 100%;
+  }
+/* gamer section ends */
+  /* online game part start */
+  .game-media {
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+    
+  }
+    /* online game part ends */
+   
+/* Instant Playing section starts */
+
+.instant-playing-container {
+    display: block;
+  }
+  .instant-playing-info {
+    width: 100%;
+    text-align: center;
+  }
+  .instant-playing-img {
+    width: 100%;
+  }
+  /* Instant Playing section Ends */
+/* Instant Playing section part-2 starts */
+.instant-playing-container1 {
+    display: block;
+  }
+
+  .instant-playing-info1 {
+    width: 100%;
+    
+  }
+  .instant-playing-img1 {
+    width: 100%;}
+    /* Instant Playing section part-2 Ends */
+
+/* Career section start  */
+.career-container {
+  display: block;
+  }
+  .career-info {
+    width: 100%;
+    margin: 50px 05px ;
+    text-align: center;
+   
+  }
+  .career-img {
+    width: 100%;
+  }
+  .group-list{
+    text-align: center;
+  }
+  .type-of-games-container{
+
+    grid-template-columns: repeat(3,  1fr);
+  }
+}
