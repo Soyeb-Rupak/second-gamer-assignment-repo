@@ -12,7 +12,6 @@ body {
 .nav-container {
   max-width: 1400px;
   margin: 0 auto;
-
   min-height: 40px;
   display: flex;
   justify-content: center;
@@ -394,3 +393,90 @@ cursor: pointer;
 
 
 /* Games type end */
+/* footer starts */
+.footer-container{
+    max-width: 1400px;
+    min-height: 300px;
+    background-color:  #0B0223;
+    margin: 50px auto;
+    text-align: center;
+}
+.footer-logo{
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    gap: 20px;
+   
+
+}
+
+.footer-logo span{ 
+    color: #ff42a5;
+     font-size: 45px;
+  
+}
+
+.footer-list{
+display: flex;
+align-items: center;
+font-size: 18px;
+gap: 50px;
+
+
+}
+.footer-list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.twiter{
+    
+    font-size: 60px;
+    border-radius:50% ;
+    padding: 10px;
+    color: skyblue;
+}
+.facebook{
+
+   
+    font-size: 60px;
+    border-radius:50% ; 
+    padding: 10px;
+    color: white;
+}
+.linkedin{
+    color: rgb(7, 119, 184);
+    font-size: 60px;
+    border-radius:50% ; 
+    padding: 10px;
+}
+.youtube{
+    
+    font-size: 60px;
+    border-radius:50% ; 
+    padding: 10px;
+    color: red;
+}
+.instagram{
+   
+    font-size: 60px;
+    border-radius:50% ; 
+    padding: 10px;
+    color:palevioletred;
+}
+.apple{
+
+    font-size: 60px;
+    border-radius:50% ; 
+    padding: 10px;
+    color: white;
+}
+
+.copy-right{
+    color: white;
+    font-size: 16px;
+}
+/* footer end */
