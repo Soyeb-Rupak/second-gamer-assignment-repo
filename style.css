@@ -168,3 +168,194 @@ body {
   color: #534c64;
 }
 /* we are gamer section end  */
+/* online game part start */
+.online-game-container {
+  max-width: 1400px;
+  min-height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.online-game-container h2 {
+  padding-top: 80px;
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-game-container p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+}
+.online-game-container span {
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.game-media {
+  display: flex;
+  gap: 15px;
+}
+.class-2 {
+  position: relative;
+  display: inline-block;
+}
+
+.play-button {
+  position: absolute;
+  /* top: 50%; */
+  /* left: 50%;    */
+  background-color: rgba(163, 139, 139, 0.7);
+  border-radius: 30%;
+  padding: 20px;
+
+  /* transform: translate(-50%, -50%); */
+}
+
+/*  online game part end  */
+/* Instant Playing section starts */
+.instant-playing-container {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 50px auto;
+}
+.instant-playing-info {
+  width: 50%;
+  text-align: center;
+}
+.instant-playing-img {
+  width: 50%;
+
+  position: relative;
+}
+.instant-playing-img img {
+  width: 100%;
+}
+
+.corner-img {
+  position: absolute;
+  top: 55%;
+  left: -20%;
+  width: 50%;
+}
+.instant-playing-info h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.instant-playing-info > h2 span {
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.instant-playing-info {
+  width: 50%;
+}
+
+/* Instant Playing section Ends */
+
+/* Instant Playing section part-2 starts */
+.instant-playing-container1 {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 200px auto;
+}
+.instant-playing-info1 {
+  width: 50%;
+  text-align: center;
+}
+.instant-playing-img1 {
+  width: 50%;
+
+  position: relative;
+}
+.instant-playing-img1 img {
+  width: 100%;
+}
+
+.corner-img1 {
+  position: absolute;
+  top: 55%;
+  right: -20%;
+  width: 50%;
+}
+.instant-playing-info1 h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.instant-playing-info1 > h2 span {
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.instant-playing-info1 {
+  width: 50%;
+}
+
+/* Instant Playing section part-2 Ends */
+
+/* Career section start  */
+.career-container {
+  max-width: 1400px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff42a5;
+  margin: 0 auto;
+  color: white;
+}
+.career-info {
+  width: 50%;
+  margin-left: 150px;
+}
+.career-info h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.career-info p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.career-img {
+  width: 50%;
+}
+.career-img img {
+  width: 100%;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.group-list {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  /* margin-left:100px ; */
+}
+.country-name {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn-3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 40px;
+  border-radius: 48px;
+  background-color: white;
+  border: none;
+  color: rgb(10, 0, 0);
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+/*  career section end  */
