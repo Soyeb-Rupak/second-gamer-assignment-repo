@@ -359,3 +359,38 @@ body {
   margin-top: 30px;
 }
 /*  career section end  */
+/* Games type starts */
+.type-of-games-container {
+  max-width: 1400;
+  min-height: 200px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  margin: 150px 300px;
+}
+
+.btn-game-type {
+  padding: 10px 40px;
+  border-radius: 48px;
+  border: none;
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(245, 242, 242);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.btn-game-type:hover{
+border:3px solid #ff42a5;
+cursor: pointer;
+
+}
+
+
+/* Games type end */
