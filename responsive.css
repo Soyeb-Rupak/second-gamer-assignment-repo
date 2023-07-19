@@ -1,0 +1,26 @@
+@media screen and (max-width: 425px) {
+    .nav-container {
+      flex-direction: column;
+      width: 100%;
+    }
+    .logo-part {
+        width: 100%;
+        text-align: center;
+        width: 100%;
+      
+        
+      }
+    .menu-part {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      
+    }
+  
+    
+   .login-btn {
+      width: 100%;
+    
+}
+}
+  /* Nav responsive ends  */
