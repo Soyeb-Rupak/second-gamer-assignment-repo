@@ -196,24 +196,29 @@ body {
 }
 .class-2 {
   position: relative;
-  display: inline-block;
+  visibility: none;
+  /* display: inline-block; */
 }
 .class-2 p {
   color: #ff42a5;
 }
 .play-button {
   position: absolute;
-  /* top: 0%; 
-   left: 0%;      */
+    /* top: 50%;  */
+   /* left: 50%;        */
   background: #6af70c;
   border-radius: 30%;
   padding: 20px;
   color: red;
   transform: translate(-50%, -50%);
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
-  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+ 
+
 }
 
 .class-2:hover .play-button {
@@ -370,20 +375,7 @@ body {
   margin-bottom: 100px;
   margin-top: 30px;
 }
-/*  career section end  */
-/* Games type starts */
-/* .type-of-games-container {
-  max-width: 1400px;
-  min-height: 200px;
-  margin: 100px auto;  
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 15px;
-  margin: 150px 300px;  
-} */
+
 
 .type-of-games-container {
   max-width: 1400px;
@@ -419,11 +411,11 @@ gap: 20px;
 /* footer starts */
 .footer-container {
   max-width: 1400px;
-  min-height: 400px;
+  min-height: 500px;
   background-color: #0b0223;
-  margin: 50px auto;
+  /* margin: 50px auto; */
   text-align: center;
-  padding: 100px auto;
+  /* padding: 100px auto; */
 }
 .footer-logo {
   width: 100%;
@@ -433,7 +425,7 @@ gap: 20px;
   font-weight: 700;
   gap: 20px;
   display: inline-block;
-  margin-top: 50px;
+ margin-top: 30px; 
   
 }
 
@@ -447,14 +439,14 @@ gap: 20px;
   font-size: 18px;
   gap: 50px;
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .footer-list a {
   text-decoration: none;
   color: aliceblue;
 }
 .footer-icon{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .twiter {
   font-size: 60px;
@@ -495,22 +487,20 @@ gap: 20px;
 .terms-condition{
     display: flex;
     gap: 50px;
-   margin-bottom: 50px;
-
-
-   
-   
+   margin-bottom: 30px; 
+   display: inline-block; 
    
 }
 .terms-condition a{
     text-decoration: none;
     color: aliceblue;
    
+   
 }
 .copy-right {
   color: white;
   font-size: 16px;
-  margin-bottom: 100px;
-  display: inline-block; 
+  margin-bottom: 50px; 
+   /* display: inline-block;    */
 }
 /* footer end */
